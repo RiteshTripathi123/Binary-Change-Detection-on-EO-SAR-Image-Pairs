@@ -23,7 +23,7 @@ A pixel-level binary change detection model for co-registered Electro-Optical (E
 ## Model Weights
 
 Download the best checkpoint (441 MB):  
-**[best_model.pth — Google Drive](YOUR_GOOGLE_DRIVE_LINK_HERE)**
+**[best_model.pth — Google Drive](https://drive.google.com/uc?export=download&id=1uwf6mphMCmq7sqxtiEwL-HheFQ6px2_O)**
 
 Place it at `checkpoints/best_model.pth` before running evaluation.
 
