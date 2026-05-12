@@ -1,6 +1,9 @@
 Binary Change Detection on EO-SAR Image Pairs
+
 GalaxEye Space — Satellite AI Research Intern Assignment
+
 A pixel-level binary change detection model for co-registered Electro-Optical (EO) and Synthetic Aperture Radar (SAR) image pairs. Built for disaster response, urban monitoring, and environmental surveillance applications.
+
 Architecture: Siamese U-Net with ResNet-34 EO encoder + lightweight SAR encoder + cross-modal feature fusion
 Loss: DiceFocal (handles ~3.8% change-pixel class imbalance)
 Best Val F1: 0.681 | Best Val IoU: 0.517
