@@ -56,7 +56,7 @@ scikit-learn==1.3.2
 
 ```bash
 # Clone the repository
-git clone https://github.com/RiteshTripathi12/galaxeye-change-detection
+git clone https://github.com/RiteshTripathi123/Binary-Change-Detection-on-EO-SAR-Image-Pairs
 cd galaxeye-change-detection
 
 # Create and activate conda environment
