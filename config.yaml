@@ -1,0 +1,24 @@
+# config.yaml
+# All hyperparameters for EO-SAR Binary Change Detection
+
+# ── Data ──────────────────────────────────────────────────────────────────────
+data_root: "data/"
+save_dir: "checkpoints/"
+img_size: 256
+num_workers: 0
+
+# ── Training ──────────────────────────────────────────────────────────────────
+seed: 42
+epochs: 50
+batch_size: 8
+pretrained: true
+
+# ── Optimizer ─────────────────────────────────────────────────────────────────
+lr: 0.0003
+weight_decay: 0.0001
+
+# ── Loss function (DiceFocal) ─────────────────────────────────────────────────
+dice_weight: 0.5
+focal_weight: 0.5
+focal_alpha: 0.75
+focal_gamma: 2.0
